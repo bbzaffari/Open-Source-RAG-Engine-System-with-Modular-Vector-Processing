@@ -2,6 +2,14 @@
 This is an open-source modular RAG (Retrieval-Augmented Generation) system developed at PureAI, integrating C++ and Python for high-performance vector processing and queries.
 In addition to its modular architecture, the project features orchestration and optimization through build and deploy pipeline scripts, reducing processes that originally took ~3 hours down to just 30 minutes.
 
+> **Note:**  
+> As this project is extensive and contains many modular components, this documentation will initially focus on explaining the parts I developed in the `ChunkDefault` and `ChunkQuery` modules, as well as their integration with the `VectorDatabase`.  
+> 
+> Later sections will extend the documentation to cover:
+> - the C++ ↔ Python bindings,
+> - the modular CMake architecture,
+> - and the automated PIP build and deployment system.
+
 ## Table of Contents
 
 - [Introduction](#purecpp)
@@ -37,7 +45,7 @@ It also includes careful memory control strategies to maximize performance, culm
 - Documentation:
   - All files under the `doc` or documentation-related directories.
 - Bindings:
-  - All files related to C++ ↔ Python bindings integration.
+  - All files related to C++/Python bindings integration.
 -  CMake:
   - All files and configurations with uppercase `CMake` in their name, including modular build configurations.
 
@@ -61,13 +69,6 @@ It also includes careful memory control strategies to maximize performance, culm
 
 # FUNCTIONALITY
 In summary, I designed and implemented all the core structures related to the deploy system and PIP packaging, building the backbone that supports the project's modular distribution and automation.
-
-. 
-
-.
-
-.
-
 Additionally, I engineered and integrated the fundamental data structures (structs) that gave rise to the engine powering the Vector Database — a scalable, high-performance core explained further in the documentation.
 Disclaimer: These contributions reflect technical solutions I personally implemented, outside the formal scope of my internship contract, using no internal company resources. No confidential or proprietary information is disclosed here; all content is based on public open-source work.
 ## Disclaimer
