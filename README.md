@@ -71,6 +71,16 @@ It also includes careful memory control strategies to maximize performance, culm
 In summary, I designed and implemented all the core structures related to the deploy system and PIP packaging, building the backbone that supports the project's modular distribution and automation.
 Additionally, I engineered and integrated the fundamental data structures (structs) that gave rise to the engine powering the Vector Database — a scalable, high-performance core explained further in the documentation.
 Disclaimer: These contributions reflect technical solutions I personally implemented, outside the formal scope of my internship contract, using no internal company resources. No confidential or proprietary information is disclosed here; all content is based on public open-source work.
+## High-Level Functionality Demonstration
+
+I have created a Jupyter Notebook that explains the high-level functionality of the components I implemented, focusing on:
+
+- `ChunkDefault`
+- `ChunkQuery`
+- `VectorDatabase`
+
+This notebook demonstrates how these components work together and highlights the key aspects of the three main libraries involved. [Click here to access the notebook directory](https://github.com/bbzaffari/Lightning-Fast-RAG-Core-PureAI-s-PureCPP-VDB)
+
 ## Disclaimer
 These contributions reflect technical solutions I personally implemented, outside the formal scope of my internship contract, using no internal company resources. No confidential or proprietary information is disclosed here; all content is based on public open-source work.
 
