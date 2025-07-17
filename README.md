@@ -94,7 +94,7 @@ I developed:
 - and automation scripts for build and deployment.
 
 Although I was formally hired as an intern, the scope of my work aligned more with intermediate-level engineering responsibilities.
-Unfortunately, much of this additional effort has gone unrecognized, and part of this publication is to ensure that my contributions are visible and properly acknowledged.
+Part of this publication is to ensure that my contributions are visible and properly acknowledged.
 
 **License & Visibility**  
 The repository is public under the MIT license.
