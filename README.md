@@ -1,0 +1,94 @@
+# PureCPP
+This is an open-source modular RAG (Retrieval-Augmented Generation) system developed at PureAI, integrating C++ and Python for high-performance vector processing and queries.
+In addition to its modular architecture, the project features orchestration and optimization through build and deploy pipeline scripts, reducing processes that originally took ~3 hours down to just 30 minutes.
+
+## Table of Contents
+
+- [Introduction](#purecpp)
+- [Main Contributions](#main-contributions)
+- [Related Files and Areas](#related-files-and-areas)
+- [Technologies Used](#technologies-used)
+- [Functionality](#functionality)
+- [Disclaimer](#disclaimer)
+
+It also includes careful memory control strategies to maximize performance, culminating in the development of a functional and scalable vector database engine.
+## Main Contributions
+
+- Developed the entire backbone architecture of the core system, focusing on efficient construction and high-performance execution.
+-  Implemented nearly all C++ ↔ Python bindings, enabling seamless integration between the core engine and Python interfaces.
+- Built and optimized the build and deploy pipeline, reducing process time from ~3 hours to just 30 minutes.
+- Created a Docker environment for isolated, reproducible development and usage.
+-  Restructured the repository for better modularity, scalability, and maintainability.
+-  Designed and implemented the core vector database engine, ensuring scalable, functional vector storage and retrieval.
+-  Developed cosine similarity query implementations, integrated with FAISS for optimized similarity search.
+## Related Files and Areas
+
+- All `PIP_*` folders:
+  - Scripts and configurations for Python packaging and deployment.
+  
+- All automation scripts (`*.sh`):
+  - Build, deploy, and environment orchestration scripts.
+
+- Core modules:
+  - `VectorDatabase`
+  - `ChunkDefault`
+  - `ChunkQuery`
+
+- Documentation:
+  - All files under the `doc` or documentation-related directories.
+- Bindings:
+  - All files related to C++ ↔ Python bindings integration.
+-  CMake:
+  - All files and configurations with uppercase `CMake` in their name, including modular build configurations.
+
+## Technologies Used
+
+- **CMake** — Modular build system configuration.
+- **Conan** — C++ package and dependency management.
+- **Torch / PyTorch** — Machine learning and tensor operations.
+- **C++** — Core implementation language.
+- **Rust** — Auxiliary or experimental components.
+- **Docker** — Containerization for reproducible environments.
+- **ManyLinux** — Multi-Python-version builds and compatibility for pip wheels.
+-  **Ninja** — Fast build system used with CMake for compilation.
+-  **PyBind11** (provavelmente o que você chamou de PineBind) — C++ ↔ Python bindings.
+- **FAISS** — Vector similarity search (used in cosine similarity, L2, inner product queries).
+- **RE2** — High-performance regular expressions.
+-  **OpenAI API (EmbeddingOpenAI)** — For generating embeddings via models like `text-embedding-ada-002`.
+-  **OpenMP** — Parallelization for multi-threaded C++ code.
+- **OpenBLAS** — Optimized linear algebra backend for matrix operations.
+- **ONNX** — Open Neural Network Exchange for model interoperability.
+
+# FUNCTIONALITY
+In summary, I designed and implemented all the core structures related to the deploy system and PIP packaging, building the backbone that supports the project's modular distribution and automation.
+
+. 
+
+.
+
+.
+
+Additionally, I engineered and integrated the fundamental data structures (structs) that gave rise to the engine powering the Vector Database — a scalable, high-performance core explained further in the documentation.
+Disclaimer: These contributions reflect technical solutions I personally implemented, outside the formal scope of my internship contract, using no internal company resources. No confidential or proprietary information is disclosed here; all content is based on public open-source work.
+## Disclaimer
+These contributions reflect technical solutions I personally implemented, outside the formal scope of my internship contract, using no internal company resources. No confidential or proprietary information is disclosed here; all content is based on public open-source work.
+
+This repository contains code I developed during my time collaborating with PureAI.
+Officially, my role was focused on testing tasks; however, over time, I contributed far beyond what was initially requested.
+
+I developed:
+- the backbone architecture,
+- C++ ↔ Python bindings,
+- modular chunk and embedding systems,
+- and automation scripts for build and deployment.
+
+Although I was formally hired as an intern, the scope of my work aligned more with intermediate-level engineering responsibilities.
+Unfortunately, much of this additional effort has gone unrecognized, and part of this publication is to ensure that my contributions are visible and properly acknowledged.
+
+**License & Visibility**  
+The repository is public under the MIT license.
+Everything shared here reflects parts I personally worked on or played a significant role in developing.
+There is no confidential or proprietary information being revealed here:
+1. The code is already publicly available,
+2. My intent is to explain and clarify the parts I directly contributed to,
+3. I aim to provide technical transparency and highlight the complexities often hidden behind raw code.
