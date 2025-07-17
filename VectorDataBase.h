@@ -26,7 +26,7 @@
 
 namespace VectorDataBase {
 
-    struct vdb_data {
+    struct vdb_data { // Initialy on  #include "Chunk/ChunkCommons/ChunkCommons.h"
         std::vector<float> flatVD;
         std::string vendor;
         std::string model;
