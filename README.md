@@ -9,7 +9,8 @@ In addition to its modular architecture, the project features orchestration and 
 > - the C++ ↔ Python bindings,
 > - the modular CMake architecture,
 > - and the automated PIP build and deployment system.
-
+It also includes careful memory control strategies to maximize performance, culminating in the development of a functional and scalable vector database engine.
+---
 ## Table of Contents
 
 - [Introduction](#purecpp)
@@ -19,7 +20,7 @@ In addition to its modular architecture, the project features orchestration and 
 - [Functionality](#functionality)
 - [Disclaimer](#disclaimer)
 
-It also includes careful memory control strategies to maximize performance, culminating in the development of a functional and scalable vector database engine.
+
 ## Main Contributions
 
 - Developed the entire backbone architecture of the core system, focusing on efficient construction and high-performance execution.
