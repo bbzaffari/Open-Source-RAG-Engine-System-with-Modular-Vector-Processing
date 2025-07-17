@@ -72,9 +72,9 @@ In addition to its modular architecture, the project features orchestration and 
 # FUNCTIONALITY
 In summary, I designed and implemented all the core structures related to the deploy system and PIP packaging, building the backbone that supports the project's modular distribution and automation.
 Additionally, I engineered and integrated the fundamental data structures (structs) that gave rise to the engine powering the Vector Database — a scalable, high-performance core explained further in the documentation.
-Disclaimer: These contributions reflect technical solutions I personally implemented, outside the formal scope of my internship contract, using no internal company resources. No confidential or proprietary information is disclosed here; all content is based on public open-source work.
+`Disclaimer: These contributions reflect technical solutions I personally implemented, outside the formal scope of my internship contract, using no internal company resources. No confidential or proprietary information is disclosed here; all content is based on public open-source work.
 
-## Core Vector Data Base Engine 
+## Core Vector Database Engine
 Focusing on:
 
 - `ChunkDefault`
