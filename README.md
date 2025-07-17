@@ -72,14 +72,15 @@ In summary, I designed and implemented all the core structures related to the de
 Additionally, I engineered and integrated the fundamental data structures (structs) that gave rise to the engine powering the Vector Database — a scalable, high-performance core explained further in the documentation.
 Disclaimer: These contributions reflect technical solutions I personally implemented, outside the formal scope of my internship contract, using no internal company resources. No confidential or proprietary information is disclosed here; all content is based on public open-source work.
 
-I have created a Jupyter Notebook that explains the high-level functionality of the components I implemented, focusing on:
+## Core Vector Data Base Engine 
+Focusing on:
 
 - `ChunkDefault`
 - `ChunkQuery`
 - `VectorDatabase`
   
 ## High-Level Functionality Demonstration
-
+I have created a Jupyter Notebook that explains the high-level functionality of this components that I implemented 
 This notebook demonstrates how these components work together and highlights the key aspects of the three main libraries involved. [Click here to access the notebook directory](https://github.com/bbzaffari/Lightning-Fast-RAG-Core-PureAI-s-PureCPP-VDB)
 
 ## Low-Level Functionality
