@@ -130,7 +130,7 @@ This repository contains code I developed during my time collaborating with Pure
 Officially, my role was focused on testing tasks; however, over time, I contributed far beyond what was initially requested.
 
 I developed:
-- the backbone architecture,
+- the backbone architecture for VDB engine,
 - C++ <-> Python bindings,
 - modular chunk and embedding systems,
 - and automation scripts for build and deployment.
