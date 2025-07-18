@@ -135,7 +135,7 @@ I developed:
 - modular chunk and embedding systems,
 - and automation scripts for build and deployment.
 
-Although I was formally hired as an intern, the scope of my work aligned more with intermediate-level engineering responsibilities.
+While formally an intern, I undertook responsibilities typically associated with intermediate-level engineering roles.
 Part of this publication is to ensure that my contributions are visible and properly acknowledged.
 
 **License & Visibility**  
