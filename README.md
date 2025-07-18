@@ -7,7 +7,7 @@ In addition to its modular architecture, the project features orchestration and 
 > As this project is extensive and contains many modular components, this documentation will initially focus on explaining the parts I developed in the `ChunkDefault` and `ChunkQuery` modules, as well as their integration with the `VectorDatabase`.  
 > 
 > Later sections will extend the documentation to cover:
-> - the C++ ↔ Python bindings,
+> - the C++ <-> Python bindings,
 > - the modular CMake architecture,
 > - and the automated PIP build and deployment system.
 
@@ -25,7 +25,7 @@ In addition to its modular architecture, the project features orchestration and 
 ## Main Contributions
 
 - Developed the entire backbone architecture of the core system, focusing on efficient construction and high-performance execution.
--  Implemented nearly all C++ ↔ Python bindings, enabling seamless integration between the core engine and Python interfaces.
+-  Implemented nearly all C++ <-> Python bindings, enabling seamless integration between the core engine and Python interfaces.
 - Built and optimized the build and deploy pipeline, reducing process time from ~3 hours to just 30 minutes.
 - Created a Docker environment for isolated, reproducible development and usage.
 -  Restructured the repository for better modularity, scalability, and maintainability.
@@ -61,7 +61,7 @@ In addition to its modular architecture, the project features orchestration and 
 - **Docker** — Containerization for reproducible environments.
 - **ManyLinux** — Multi-Python-version builds and compatibility for pip wheels.
 -  **Ninja** — Fast build system used with CMake for compilation.
--  **PyBind11** (provavelmente o que você chamou de PineBind) — C++ ↔ Python bindings.
+-  **PyBind11** (provavelmente o que você chamou de PineBind) — C++ <-> Python bindings.
 - **FAISS** — Vector similarity search (used in cosine similarity, L2, inner product queries).
 - **RE2** — High-performance regular expressions.
 -  **OpenAI API (EmbeddingOpenAI)** — For generating embeddings via models like `text-embedding-ada-002`.
@@ -131,7 +131,7 @@ Officially, my role was focused on testing tasks; however, over time, I contribu
 
 I developed:
 - the backbone architecture,
-- C++ ↔ Python bindings,
+- C++ <-> Python bindings,
 - modular chunk and embedding systems,
 - and automation scripts for build and deployment.
 
