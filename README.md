@@ -90,35 +90,6 @@ This notebook demonstrates how these components work together and highlights the
 > **NOTE:**  
 > Initially, I created these structures and functions in the directory `Chunk/ChunkCommons/ChunkCommons.h`.  
 > I will provide further details and explanations about this part later.
->
-> ```c++
-> namespace Chunk {
->     struct vdb_data {
->         std::vector<float> flatVD;
->         std::string vendor;
->         std::string model;
->         size_t dim = 0;
->         size_t n = 0;
->         //----------------------------------------------------
->         inline const std::tuple<size_t, size_t> getPar(void) const { return { n, dim }; }
->         inline std::pair<std::string, std::string> getEmbPar(void) const { return { vendor, model }; }
->         inline const float* getVDpointer(void) const {
->             if (flatVD.empty()) {
->                 std::cout << "[Info] Empty Vector Data Base\n";
->                 return {};
->             }
->             return flatVD.data();
->         }
->     };
->
->     //===============================================================================================
->     extern inline const std::unordered_map<std::string, std::vector<std::string>> EmbeddingModel = {
->         {"openai", {"text-embedding-ada-002", "text-embedding-3-small", "..."}},
->         {"huggingface", {"bge-small", "bge-large"}},
->         {"cohere", {"embed-english-light-v3.0"}}
->     };
-> }
-> ```
 
 
 
