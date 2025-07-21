@@ -136,7 +136,7 @@ I developed:
 
 
 While formally an intern, I undertook responsibilities typically associated with intermediate-level engineering roles. 
-Part of this publication is to ensure that my contributions are visible and to explaind.
+Part of this publication is to ensure that my contributions are visible.
 
 **License & Visibility** 
 
