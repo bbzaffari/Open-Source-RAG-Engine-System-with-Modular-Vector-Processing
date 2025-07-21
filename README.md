@@ -45,7 +45,7 @@ In addition to its modular architecture, the project features orchestration and 
   - `ChunkQuery`
 
 - Documentation:
-  - All files under the `doc` or documentation-related directories.
+  - All documentation related to my file/directories 
 - Bindings:
   - All files related to C++/Python bindings integration.
 -  CMake:
@@ -72,7 +72,7 @@ In addition to its modular architecture, the project features orchestration and 
 # FUNCTIONALITY
 In summary, I designed and implemented all the core structures related to the deploy system and PIP packaging, building the backbone that supports the project's modular distribution and automation.
 Additionally, I engineered and integrated the fundamental data structures (structs) that gave rise to the engine powering the Vector Database — a scalable, high-performance core explained further in the documentation.
-`Disclaimer: These contributions reflect technical solutions I personally implemented, outside the formal scope of my internship contract, using no internal company resources. No confidential or proprietary information is disclosed here; all content is based on public open-source work.
+
 
 ## Core Vector Database Engine
 Focusing on:
@@ -120,7 +120,6 @@ This notebook demonstrates how these components work together and highlights the
 > }
 > ```
 
- 
 
 
 ## Disclaimer
@@ -136,8 +135,8 @@ I developed:
 - and automation scripts for build and deployment.
 
 
-While formally an intern, I undertook responsibilities typically associated with intermediate-level engineering roles.
-Part of this publication is to ensure that my contributions are visible and properly acknowledged.
+While formally an intern, I undertook responsibilities typically associated with intermediate-level engineering roles. 
+Part of this publication is to ensure that my contributions are visible and to explaind.
 
 **License & Visibility** 
 
