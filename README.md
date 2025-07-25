@@ -1,4 +1,6 @@
 # PureCPP
+
+
 This is an open-source modular RAG (Retrieval-Augmented Generation) system developed by PureAI, to which I contributed during my internship, integrating C++ and Python, deploying to PyPI, and optimizing for high-performance vector processing and queries.
 It also includes careful memory control strategies to maximize performance, culminating in the development of a functional and scalable vector database engine.
 In addition to its modular architecture, the project features orchestration and optimization through build and deploy pipeline scripts, reducing processes that originally took ~3 hours down to just 30 minutes.
@@ -10,7 +12,7 @@ In addition to its modular architecture, the project features orchestration and 
 > - the C++ <-> Python bindings,
 > - the modular CMake architecture,
 > - and the automated PIP build and deployment system.
-
+The Preview:🔗[ Upcoming New Version ](https://github.com/bbzaffari/purecpp), under tests before its official release under the PURE Ecosystem.
 ---
 ## Table of Contents
 
