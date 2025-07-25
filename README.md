@@ -35,7 +35,7 @@ In addition to its modular architecture, the project features orchestration and 
 -  Designed and implemented the core vector database engine, ensuring scalable, functional vector storage and retrieval.
 -  Developed cosine similarity query implementations, integrated with FAISS for optimized similarity search.
 ## Related Files and Areas
-
+*The Preview:🔗[Purecpp Refactor: Scratch Pad ](https://github.com/bbzaffari/purecpp_sp), under tests before its official release under the PURE Ecosystem.*
 - All `PIP_*` folders:
   - Scripts and configurations for Python packaging and deployment.
   
@@ -56,7 +56,7 @@ In addition to its modular architecture, the project features orchestration and 
 -  CMake:
   - All files and configurations with uppercase **CMake** in their name, including modular build configurations.
     
-*The Preview:🔗[Purecpp Refactor: Scratch Pad ](https://github.com/bbzaffari/purecpp_sp), under tests before its official release under the PURE Ecosystem.*
+
 
 ## Technologies Used
 
