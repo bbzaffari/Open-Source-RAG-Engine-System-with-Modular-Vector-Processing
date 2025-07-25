@@ -13,7 +13,7 @@ In addition to its modular architecture, the project features orchestration and 
 > - the modular CMake architecture,
 > - and the automated PIP build and deployment system.
 
-The Preview:🔗[ Upcoming New Version ](https://github.com/bbzaffari/purecpp), under tests before its official release under the PURE Ecosystem.
+
 ---
 ## Table of Contents
 
@@ -79,6 +79,8 @@ The Preview:🔗[ Upcoming New Version ](https://github.com/bbzaffari/purecpp), 
 In summary, I designed and implemented all the core structures related to the deploy system and PIP packaging, building the backbone that supports the project's modular distribution and automation.
 Additionally, I engineered and integrated the fundamental data structures (structs) that gave rise to the engine powering the Vector Database — a scalable, high-performance core explained further in the documentation.
 
+
+*The Preview:🔗[ Upcoming New Version ](https://github.com/bbzaffari/purecpp), under tests before its official release under the PURE Ecosystem.*
 
 ## Core Vector Database Engine
 Focusing on:
