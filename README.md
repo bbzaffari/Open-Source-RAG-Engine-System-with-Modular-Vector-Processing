@@ -52,6 +52,7 @@ In addition to its modular architecture, the project features orchestration and 
     
 -  CMake:
   - All files and configurations with uppercase **CMake** in their name, including modular build configurations.
+    
 
 ## Technologies Used
 
