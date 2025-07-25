@@ -33,7 +33,7 @@ In addition to its modular architecture, the project features orchestration and 
 -  Developed cosine similarity query implementations, integrated with FAISS for optimized similarity search.
 ## Related Files and Areas
 
-##### All `PIP_*` folders:
+- All `PIP_*` folders:
   - Scripts and configurations for Python packaging and deployment.
   
 - All automation scripts (`*.sh`):
@@ -45,9 +45,11 @@ In addition to its modular architecture, the project features orchestration and 
   - `ChunkQuery`
 
 - Documentation:
-  - All documentation related to my file/directories 
+  - All documentation related to my file/directories
+    
 - Bindings:
   - All files related to C++/Python bindings integration.
+    
 -  CMake:
   - All files and configurations with uppercase **CMake** in their name, including modular build configurations.
 
