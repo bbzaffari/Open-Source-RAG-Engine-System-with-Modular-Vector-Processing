@@ -104,6 +104,7 @@ I developed:
 - the backbone architecture for VDB engine,
 - C++ <-> Python bindings,
 - modular chunk and embedding systems,
+- all pypi integration
 - and automation scripts for build and deployment.
 
 
