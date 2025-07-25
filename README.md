@@ -49,7 +49,7 @@ In addition to its modular architecture, the project features orchestration and 
 - Bindings:
   - All files related to C++/Python bindings integration.
 -  CMake:
-  - All files and configurations with uppercase `CMake` in their name, including modular build configurations.
+  - All files and configurations with uppercase **CMake** in their name, including modular build configurations.
 
 ## Technologies Used
 
