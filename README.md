@@ -80,7 +80,7 @@ In summary, I designed and implemented all the core structures related to the de
 Additionally, I engineered and integrated the fundamental data structures (structs) that gave rise to the engine powering the Vector Database — a scalable, high-performance core explained further in the documentation.
 
 
-*The Preview:🔗[ Upcoming New Version ](https://github.com/bbzaffari/purecpp), under tests before its official release under the PURE Ecosystem.*
+*The Preview:🔗[ Upcoming New Version ](https://github.com/bbzaffari/purecpp_sp), under tests before its official release under the PURE Ecosystem.*
 
 ## Core Vector Database Engine
 Focusing on:
