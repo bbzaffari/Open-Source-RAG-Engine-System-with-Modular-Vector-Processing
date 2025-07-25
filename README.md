@@ -33,7 +33,7 @@ In addition to its modular architecture, the project features orchestration and 
 -  Developed cosine similarity query implementations, integrated with FAISS for optimized similarity search.
 ## Related Files and Areas
 
-- All `PIP_*` folders:
+##### All `PIP_*` folders:
   - Scripts and configurations for Python packaging and deployment.
   
 - All automation scripts (`*.sh`):
