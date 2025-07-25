@@ -56,6 +56,7 @@ In addition to its modular architecture, the project features orchestration and 
 -  CMake:
   - All files and configurations with uppercase **CMake** in their name, including modular build configurations.
     
+*The Preview:🔗[Purecpp Refactor: Scratch Pad ](https://github.com/bbzaffari/purecpp_sp), under tests before its official release under the PURE Ecosystem.*
 
 ## Technologies Used
 
@@ -79,8 +80,6 @@ In addition to its modular architecture, the project features orchestration and 
 In summary, I designed and implemented all the core structures related to the deploy system and PIP packaging, building the backbone that supports the project's modular distribution and automation.
 Additionally, I engineered and integrated the fundamental data structures (structs) that gave rise to the engine powering the Vector Database — a scalable, high-performance core explained further in the documentation.
 
-
-*The Preview:🔗[Purecpp Refactor: Scratch Pad ](https://github.com/bbzaffari/purecpp_sp), under tests before its official release under the PURE Ecosystem.*
 
 ## Core Vector Database Engine
 Focusing on:
