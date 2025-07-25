@@ -12,6 +12,7 @@ In addition to its modular architecture, the project features orchestration and 
 > - the C++ <-> Python bindings,
 > - the modular CMake architecture,
 > - and the automated PIP build and deployment system.
+
 The Preview:🔗[ Upcoming New Version ](https://github.com/bbzaffari/purecpp), under tests before its official release under the PURE Ecosystem.
 ---
 ## Table of Contents
