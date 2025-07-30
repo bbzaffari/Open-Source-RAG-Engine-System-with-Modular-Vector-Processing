@@ -26,13 +26,13 @@ In addition to its modular architecture, the project features orchestration and 
 
 ## Main Contributions
 
-- Developed the **backbone architecture** of the core system, focusing on **efficient construction** and **high-performance execution**.
 - Implemented nearly all **C++ <-> Python bindings**, enabling seamless integration between the **core engine** and **Python interfaces**.
 - Built and optimized the **build and deploy pipeline**, reducing process time from ~3 hours to just **30 minutes**.
 - Created a **Docker environment** for **isolated**, **reproducible development** and usage.
 - Restructured the **repository** for better **modularity**, **scalability**, and **maintainability**.
 - Designed and implemented the **core vector database engine**, ensuring **scalable**, **functional vector storage** and **retrieval**.
 - Developed **cosine similarity query implementations**, integrated with **FAISS** for **optimized similarity search**.
+- Developed of the **backbone architecture** of the core query system, focusing on **efficient construction** and **high-performance execution**.
 
 ## Related Files and Areas
 *The Preview:🔗[Purecpp Refactor: Scratch Pad ](https://github.com/bbzaffari/purecpp_sp), under tests before its official release under the PURE Ecosystem.*
