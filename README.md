@@ -76,12 +76,13 @@ In addition to its modular architecture, the project features orchestration and 
 - **ONNX** — Open Neural Network Exchange for model interoperability.
 
 # FUNCTIONALITY
-I engineered and integrated the fundamental data structures (structs) that gave rise to the engine powering the Vector Database — a scalable, high-performance core explained further in the documentation.
+
 
 
 ## Core Vector Database Engine
-Focusing on:
+I engineered and integrated the fundamental data structures (structs) that gave rise to the engine powering the Vector Database — a scalable, high-performance core explained further in the documentation.
 
+Focusing on:
 - `ChunkDefault`
 - `ChunkQuery`
 - `VectorDatabase`
