@@ -77,8 +77,7 @@ In addition to its modular architecture, the project features orchestration and 
 - **ONNX** — Open Neural Network Exchange for model interoperability.
 
 # FUNCTIONALITY
-In summary, I designed and implemented all the core structures related to the deploy system and PIP packaging, building the backbone that supports the project's modular distribution and automation.
-Additionally, I engineered and integrated the fundamental data structures (structs) that gave rise to the engine powering the Vector Database — a scalable, high-performance core explained further in the documentation.
+I engineered and integrated the fundamental data structures (structs) that gave rise to the engine powering the Vector Database — a scalable, high-performance core explained further in the documentation.
 
 
 ## Core Vector Database Engine
@@ -88,25 +87,27 @@ Focusing on:
 - `ChunkQuery`
 - `VectorDatabase`
   
-## High-Level Functionality Demonstration
+### High-Level Functionality Demonstration
 I have created a Jupyter Notebook that explains the high-level functionality of this components that I implemented 
 This notebook demonstrates how these components work together and highlights the key aspects of the three main libraries involved. [Click here to access the notebook directory](https://github.com/bbzaffari/Lightning-Fast-RAG-Core-PureAI-s-PureCPP-VDB)
 or 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bbzaffari/Lightning-Fast-RAG-Core-PureAI-s-PureCPP-VDB/blob/main/chunk_VDB.ipynb)
 
-## Low-Level Functionality
+### Low-Level Functionality
 
 > **NOTE:**  
 > Initially, I created these structures and functions in the directory `Chunk/ChunkCommons/ChunkCommons.h`.  
 > I will provide further details and explanations about this part later.
 
 
-
-## Disclaimer
+---
+---
+---
+# Disclaimer
 These contributions reflect technical solutions I personally implemented, outside the formal scope of my internship contract, using no internal company resources. No confidential or proprietary information is disclosed here; all content is based on public open-source work.
 
 This repository contains code I developed during my time collaborating with PureAI.
-Officially, my role was focused on testing tasks; however, over time, I contributed far beyond what was initially requested.
+Officially, my role was focused on testing tasks; however, over time, I contributed far beyond what was initially requested, because is a startup.
 
 I developed:
 - the backbone architecture for VDB engine,
@@ -117,7 +118,6 @@ I developed:
 
 
 While formally an intern, I undertook responsibilities typically associated with intermediate-level engineering roles. 
-Part of this publication is to ensure that my contributions are visible.
 
 **License & Visibility** 
 
