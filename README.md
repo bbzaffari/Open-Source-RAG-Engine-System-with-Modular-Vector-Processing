@@ -74,10 +74,10 @@ In addition to its modular architecture, the project features orchestration and 
 -  **OpenMP** — Parallelization for multi-threaded C++ code.
 - **OpenBLAS** — Optimized linear algebra backend for matrix operations.
 - **ONNX** — Open Neural Network Exchange for model interoperability.
+  
+
 
 # FUNCTIONALITY
-
-
 
 ## Core Vector Database Engine
 I engineered and integrated the fundamental data structures that gave rise to the engine powering the Vector Database — scalable and high-performance core.
