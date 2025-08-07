@@ -89,8 +89,8 @@ Focusing on:
   
 ### High-Level Functionality Demonstration
 I have created a Jupyter Notebook that explains the high-level functionality of this components that I implemented 
-This notebook demonstrates how these components work together and highlights the key aspects of the three main libraries involved. [Click here to access the notebook directory]
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bbzaffari/Lightning-Fast-RAG-Core-PureAI-s-PureCPP-VDB/blob/main/chunk_VDB.ipynb) or (https://github.com/bbzaffari/Lightning-Fast-RAG-Core-PureAI-s-PureCPP-VDB)
+This notebook demonstrates how these components work together and highlights the key aspects of the three main libraries involved.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bbzaffari/Lightning-Fast-RAG-Core-PureAI-s-PureCPP-VDB/blob/main/chunk_VDB.ipynb) or  [Click here to access the notebook directory](https://github.com/bbzaffari/Lightning-Fast-RAG-Core-PureAI-s-PureCPP-VDB)
 
 ### Low-Level Functionality
 
