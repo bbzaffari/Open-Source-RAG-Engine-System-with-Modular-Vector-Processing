@@ -80,12 +80,12 @@ In addition to its modular architecture, the project features orchestration and 
 
 
 ## Core Vector Database Engine
-I engineered and integrated the fundamental data structures that gave rise to the engine powering the Vector Database — scalable and high-performance core, explained further, in the documentation.
+I engineered and integrated the fundamental data structures that gave rise to the engine powering the Vector Database — scalable and high-performance core.
 
 Focusing on:
-- `ChunkDefault`
-- `ChunkQuery`
-- `VectorDatabase`
+  * `ChunkDefault`
+  * `ChunkQuery`
+  * `VectorDatabase`
   
 ### High-Level Functionality Demonstration
 I have created a Jupyter Notebook that explains the high-level functionality of this components that I implemented 
