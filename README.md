@@ -9,9 +9,9 @@ In addition to its modular architecture, the project features orchestration and 
 > As this project is extensive and contains many modular components, this documentation will initially focus on explaining the parts I developed in the `ChunkDefault` and `ChunkQuery` modules, as well as their integration with the `VectorDatabase`.  
 > 
 > Later sections will extend the documentation to cover:
-> - the C++ <-> Python bindings,
-> - the modular CMake architecture,
-> - and the automated PIP build and deployment system.
+> - The C++ <-> Python bindings;
+> - The modular CMake architecture;
+> - [Automated PIP build and legacy deployment system.](https://github.com/bbzaffari/Deploy-System/)
 
 
 ---
