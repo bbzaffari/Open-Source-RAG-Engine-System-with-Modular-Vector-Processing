@@ -106,7 +106,7 @@ This notebook demonstrates how these components work together and highlights the
 These contributions reflect technical solutions I personally implemented, outside the formal scope of my internship contract, using no internal company resources. No confidential or proprietary information is disclosed here; all content is based on public open-source work.
 
 This repository contains code I developed during my time collaborating with PureAI.
-Officially, my role was focused on testing tasks; however, over time, I contributed far beyond what was initially requested, because is a startup.
+**Officially, my role was focused on testing tasks; however, over time, I contributed far beyond what was initially requested, because is a startup.**
 
 I developed:
 - the backbone architecture for VDB engine,
